@@ -18,7 +18,11 @@ pytorch(cuda)
 经过13万周期、19小时的迭代训练，最终无人机智能体能够在难度10的环境中以较高的任务完成率安全到达目标点。
 
 ![avatar](https://github.com/Chenjiangwen/ImageHostingService/blob/main/pic/1696648737923GIF_2023-10-7_11-18-01.gif)
-[//]: (要在github上面显示动态图：‘https://fastly.jsdelivr.net/gh/Chenjiangwen/ImageHostingService@main/pic/’替换为'https://github.com/Chenjiangwen/ImageHostingService/blob/main/pic/')
+
+<!--
+(要在github上面显示动态图：‘https://fastly.jsdelivr.net/gh/Chenjiangwen/ImageHostingService@main/pic/’替换为'https://github.com/Chenjiangwen/ImageHostingService/blob/main/pic/')
+-->
+
 ![1696648737923GIF_2023-10-7_11-18-01.gif](https://fastly.jsdelivr.net/gh/Chenjiangwen/ImageHostingService@main/pic/1696648737923GIF_2023-10-7_11-18-01.gif)
 
 ### 项目说明 
