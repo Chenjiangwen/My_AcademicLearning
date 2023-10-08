@@ -17,7 +17,7 @@ pytorch(cuda)
 在x100 y100 z22的三维空间中，采用课程学习方式对无人机智能体进行训练，利用设置好的不同难度的课程对智能体进行梯度训练，能让智能体更快地获取决策经验。由于训练初期缺乏决策经验，需要随机选择行为对环境进行试探，本文设置随机试探周期为1000，周期内采用ε-贪心策略选择智能体行为，周期内贪心概率从1逐渐递减到0.01。1000周期后贪心概率保持在0.01。在一个周期的训练场景中随机生成15个无人机对象，当所有无人机进入终止状态（电量耗尽、坠毁、到达目标点、超过最大步长）后进入下一个周期的训练，当80%以上的无人机能够到达目标点时进入下一难度等级的训练。
 经过13万周期、19小时的迭代训练，最终无人机智能体能够在难度10的环境中以较高的任务完成率安全到达目标点。
 
-![avatar](https://fastly.jsdelivr.net/gh/Chenjiangwen/ImageHostingService@main/pic/1696648737923GIF_2023-10-7_11-18-01.gif)
+[![avatar](https://github.com/Chenjiangwen/ImageHostingService/blob/main/pic/1696648737923GIF_2023-10-7_11-18-01.gif)
 
 ### 项目说明 
 
@@ -257,7 +257,7 @@ UAV.py:
   
   <br/>
   
-  ![ed45d42889c543fc7fc446ef3947111f.gif](ed45d42889c543fc7fc446ef3947111f.gif)
+![ed45d42889c543fc7fc446ef3947111f.gif](https://github.com/Chenjiangwen/ImageHostingService/blob/main/pic/1696727730936ed45d42889c543fc7fc446ef3947111f.gif)
   
   ***
   
